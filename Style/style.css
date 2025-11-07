@@ -83,7 +83,7 @@
 .container-6{
     display: flex;
     width: 100%;
-    height: 800px;
+    height: 900px;
     align-items: center;
     justify-content: center;
 }
@@ -92,4 +92,32 @@
     width: 75%;
     height: 90%;
     border: 2px solid black
+}
+
+.back-black{
+    background-color: black;
+}
+
+.container-8 {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-9 {
+    display: flex;
+    width: 75%;
+    height: 90%;
+}
+
+.back-bluegreen {
+    background: rgb(81, 226, 171);
+    width: calc(100% / 5);
+}
+
+.back-purple {
+    background: purple;
+    width: 400px;
 }
