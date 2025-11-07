@@ -6,9 +6,8 @@
 
 .container-nav {
     display: flex;
-    background-color: skyblue;
     width: 100%;
-    height: 50px;
+    height: 100px;
     align-items: center;
     justify-content: center;
 }
@@ -18,6 +17,7 @@
     width: 75%;
     height: 50%;
     justify-content:space-between;
+    align-items: center;
 }
 
 .navigation-bar {
@@ -120,4 +120,29 @@
 .back-purple {
     background: purple;
     width: 400px;
+}
+
+.back-lightsky {
+    background-color: lightskyblue;
+}
+
+.back-lightgreen {
+    background-color: lightseagreen;
+}
+
+.padding-button{
+    padding: 5px;
+    background-color: pink;
+}
+
+.border-grey{
+    border-bottom: 2px solid grey;
+}
+
+.border-left {
+    border-left: 2px solid black;
+}
+
+.border-button {
+    border: 2px solid black;
 }
